@@ -76,6 +76,15 @@ app_license = "mit"
 # before_uninstall = "erp.uninstall.before_uninstall"
 # after_uninstall = "erp.uninstall.after_uninstall"
 
+fixtures = [
+    {
+        "dt": "Custom HTML Block",
+        "filters": [
+            ["name", "in", ["welcome"]]
+        ]
+    }
+]
+
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
