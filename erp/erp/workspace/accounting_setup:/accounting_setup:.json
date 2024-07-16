@@ -1,0 +1,104 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"63mk6OQ9sA\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Accounting Setup:</span>\",\"col\":12}},{\"id\":\"3-_VYsBfig\",\"type\":\"paragraph\",\"data\":{\"text\":\"Setup the Simple Accounting module. Functions here are often performed by an accountant\",\"col\":12}},{\"id\":\"nFF6ij8Hr3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Chart of Accounts\",\"col\":3}},{\"id\":\"17swXORDvb\",\"type\":\"card\",\"data\":{\"card_name\":\"Banking\",\"col\":4}},{\"id\":\"87KHbgEq6n\",\"type\":\"card\",\"data\":{\"card_name\":\"Tax\",\"col\":4}},{\"id\":\"8rFaMfv1eD\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Module Settings</b></span>\",\"col\":12}},{\"id\":\"RExeW3Ffs3\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Simple Accounting Settings\",\"col\":3}}]",
+ "creation": "2024-07-04 10:57:48.119138",
+ "custom_blocks": [],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "setting-gear",
+ "idx": 0,
+ "indicator_color": "",
+ "is_hidden": 0,
+ "label": "Accounting Setup:",
+ "links": [
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Banking",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Banks",
+   "link_count": 0,
+   "link_to": "Bank",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Bank Accounts",
+   "link_count": 0,
+   "link_to": "Bank Account",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax",
+   "link_count": 2,
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Card Break"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Categories",
+   "link_count": 0,
+   "link_to": "Tax Category",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Tax Rules",
+   "link_count": 0,
+   "link_to": "Tax Rule",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  }
+ ],
+ "modified": "2024-07-16 10:24:25.033674",
+ "modified_by": "Administrator",
+ "module": "Erp",
+ "name": "Accounting Setup:",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "Accounting:",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 3.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "Tree",
+   "label": "Chart of Accounts",
+   "link_to": "Account",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Simple Accounting Settings",
+   "link_to": "Simple Accounting Settings",
+   "type": "DocType"
+  }
+ ],
+ "title": "Accounting Setup:"
+}

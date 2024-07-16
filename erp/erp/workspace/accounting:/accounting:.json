@@ -1,0 +1,73 @@
+{
+ "charts": [],
+ "content": "[{\"id\":\"MnAZ3x4NHT\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Simple Accounting Workspace</span>\",\"col\":12}},{\"id\":\"lcBrDHjFFZ\",\"type\":\"paragraph\",\"data\":{\"text\":\"The Simple Accounting module gives a simplified view of the ERP Next \\\"Accounting\\\" module. Business logic has not been changed. Read the documentation at <a href=\\\"https://voyzu.com/simple\\\">voyzu.com/simple</a>\",\"col\":12}},{\"id\":\"Zf6NEihKao\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Actions</b></span>\",\"col\":12}},{\"id\":\"TrXuFJnaqp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Import Bank Statement\",\"col\":3}},{\"id\":\"no8qRaVjRF\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Reconcile Bank Statement\",\"col\":3}},{\"id\":\"f9zewCMY8B\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Reports</b></span>\",\"col\":12}},{\"id\":\"z7he3kcc5G\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bank Reconciliation Statement\",\"col\":3}},{\"id\":\"Y1GcGA99j5\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Lists</b></span>\",\"col\":12}},{\"id\":\"VyNTttQusp\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Bank Transactions\",\"col\":3}},{\"id\":\"gh_nNExNHg\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Journal Entries\",\"col\":3}},{\"id\":\"azfc_rvXOx\",\"type\":\"custom_block\",\"data\":{\"custom_block_name\":\"simple_code\",\"col\":12}}]",
+ "creation": "2024-07-03 10:12:16.759243",
+ "custom_blocks": [
+  {
+   "custom_block_name": "simple_code",
+   "label": "simple_code"
+  }
+ ],
+ "docstatus": 0,
+ "doctype": "Workspace",
+ "for_user": "",
+ "hide_custom": 0,
+ "icon": "accounting",
+ "idx": 0,
+ "indicator_color": "green",
+ "is_hidden": 0,
+ "label": "Accounting:",
+ "links": [],
+ "modified": "2024-07-16 10:24:24.956695",
+ "modified_by": "Administrator",
+ "module": "Erp",
+ "name": "Accounting:",
+ "number_cards": [],
+ "owner": "Administrator",
+ "parent_page": "",
+ "public": 1,
+ "quick_lists": [],
+ "roles": [],
+ "sequence_id": 2.0,
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "New",
+   "label": "Import Bank Statement",
+   "link_to": "Bank Statement Import",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bank Reconciliation Statement",
+   "link_to": "Bank Reconciliation Statement",
+   "type": "Report"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Reconcile Bank Statement",
+   "link_to": "Bank Reconciliation Tool",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Bank Transactions",
+   "link_to": "Bank Transaction",
+   "stats_filter": "[]",
+   "type": "DocType"
+  },
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "Journal Entries",
+   "link_to": "Journal Entry",
+   "stats_filter": "[]",
+   "type": "DocType"
+  }
+ ],
+ "title": "Accounting:"
+}
