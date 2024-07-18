@@ -1,0 +1,25 @@
+{
+ "cards": [],
+ "charts": [
+  {
+   "chart": "Profit and Loss",
+   "width": "Half"
+  },
+  {
+   "chart": "Bank Balance",
+   "width": "Half"
+  }
+ ],
+ "creation": "2024-07-19 11:20:20.511140",
+ "dashboard_name": "Simple Accounting",
+ "docstatus": 0,
+ "doctype": "Dashboard",
+ "idx": 0,
+ "is_default": 0,
+ "is_standard": 1,
+ "modified": "2024-07-19 11:21:37.980990",
+ "modified_by": "Administrator",
+ "module": "Erp",
+ "name": "Simple Accounting",
+ "owner": "Administrator"
+}
