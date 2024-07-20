@@ -4,6 +4,7 @@ app_publisher = "Voyzu Ltd"
 app_description = "Voyzu ERP Customizations"
 app_email = "support@voyzu.com"
 app_license = "mit"
+
 # required_apps = []
 
 # Includes in <head>
