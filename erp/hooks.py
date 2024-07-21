@@ -169,6 +169,11 @@ fixtures = [
 # Overriding Methods
 # ------------------------------
 #
+
+# override_whitelisted_methods = {
+#     "erp.logic.version.get_app_version": "erp.logic.version.get_app_version"
+# }
+
 # override_whitelisted_methods = {
 # 	"frappe.desk.doctype.event.event.get_events": "erp.event.get_events"
 # }
