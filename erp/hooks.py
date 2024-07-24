@@ -132,6 +132,12 @@ fixtures = [
 # ---------------
 # Hook on document methods and events
 
+doc_events = {
+    "Invoice": {
+        "before_save": "erp.erp.doctype.invoice.invoice.before_save"
+    }
+}
+
 # doc_events = {
 # 	"*": {
 # 		"on_update": "method",
