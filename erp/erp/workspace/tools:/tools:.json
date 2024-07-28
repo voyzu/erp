@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"8CC1s5_Jks\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Tools:</span>\",\"col\":12}},{\"id\":\"fFNKV96U4m\",\"type\":\"card\",\"data\":{\"card_name\":\"Data\",\"col\":4}},{\"id\":\"-aCyeWOPzp\",\"type\":\"card\",\"data\":{\"card_name\":\"Printing\",\"col\":4}}]",
+ "content": "[{\"id\":\"8CC1s5_Jks\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Tools:</span>\",\"col\":12}},{\"id\":\"fFNKV96U4m\",\"type\":\"card\",\"data\":{\"card_name\":\"Data\",\"col\":4}},{\"id\":\"nMUG4ADNB-\",\"type\":\"card\",\"data\":{\"card_name\":\"Backups\",\"col\":4}},{\"id\":\"9r-dJW41F-\",\"type\":\"card\",\"data\":{\"card_name\":\"Audit\",\"col\":4}}]",
  "creation": "2024-07-16 10:04:30.246798",
  "custom_blocks": [],
  "docstatus": 0,
@@ -17,7 +17,7 @@
    "hidden": 0,
    "is_query_report": 0,
    "label": "Data",
-   "link_count": 2,
+   "link_count": 3,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -45,8 +45,18 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Printing",
-   "link_count": 5,
+   "label": "Bulk Update",
+   "link_count": 0,
+   "link_to": "Bulk Update",
+   "link_type": "DocType",
+   "onboard": 0,
+   "type": "Link"
+  },
+  {
+   "hidden": 0,
+   "is_query_report": 0,
+   "label": "Audit",
+   "link_count": 1,
    "link_type": "DocType",
    "onboard": 0,
    "type": "Card Break"
@@ -54,9 +64,9 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Letterhead",
+   "label": "Deleted Documents",
    "link_count": 0,
-   "link_to": "Letter Head",
+   "link_to": "Deleted Document",
    "link_type": "DocType",
    "onboard": 0,
    "type": "Link"
@@ -64,45 +74,24 @@
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Print Format",
-   "link_count": 0,
-   "link_to": "Print Format",
+   "label": "Backups",
+   "link_count": 1,
    "link_type": "DocType",
    "onboard": 0,
-   "type": "Link"
+   "type": "Card Break"
   },
   {
    "hidden": 0,
    "is_query_report": 0,
-   "label": "Print Settings",
+   "label": "Backups",
    "link_count": 0,
-   "link_to": "Print Settings",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "Print Style",
-   "link_count": 0,
-   "link_to": "Print Style",
-   "link_type": "DocType",
-   "onboard": 0,
-   "type": "Link"
-  },
-  {
-   "hidden": 0,
-   "is_query_report": 0,
-   "label": "print-format-builder",
-   "link_count": 0,
-   "link_to": "print-format-builder",
+   "link_to": "backups",
    "link_type": "Page",
    "onboard": 0,
    "type": "Link"
   }
  ],
- "modified": "2024-07-23 11:38:28.548141",
+ "modified": "2024-07-27 15:47:31.161206",
  "modified_by": "Administrator",
  "module": "Erp",
  "name": "Tools:",
@@ -112,7 +101,7 @@
  "public": 1,
  "quick_lists": [],
  "roles": [],
- "sequence_id": 9.0,
+ "sequence_id": 11.0,
  "shortcuts": [],
  "title": "Tools:"
 }

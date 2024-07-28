@@ -4,6 +4,7 @@ app_publisher = "Voyzu Ltd"
 app_description = "Voyzu ERP Customizations"
 app_email = "support@voyzu.com"
 app_license = "mit"
+app_logo_url = '/assets/erp/images/voyzu.jpg'
 
 # required_apps = []
 
@@ -43,12 +44,16 @@ app_include_js = "/assets/erp/js/erp.js"
 # ----------
 
 # application home page (will override Website Settings)
-# home_page = "login"
+home_page = "/app/welcome%3A"
 
 # website user home page (by Role)
 # role_home_page = {
 # 	"Role": "home_page"
 # }
+website_context = {
+	"favicon": "/assets/erp/images/voyzu.jpg",
+	"splash_image": "/assets/erp/images/voyzu.jpg"
+}
 
 # Generators
 # ----------
