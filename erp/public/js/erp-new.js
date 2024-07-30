@@ -1,4 +1,4 @@
-console.log('custom erp js loads...')
+console.log('custom erp-new js loads...')
 
 // async function observeUrlChange() {
 

@@ -4,7 +4,7 @@ app_publisher = "Voyzu Ltd"
 app_description = "Voyzu ERP Customizations"
 app_email = "support@voyzu.com"
 app_license = "mit"
-app_logo_url = '/assets/erp/images/voyzu.jpg'
+app_logo_url = '/assets/erp/images/voyzu.png' # login screen logo and logo at top left in desk
 
 # required_apps = []
 
@@ -13,7 +13,7 @@ app_logo_url = '/assets/erp/images/voyzu.jpg'
 
 # include js, css files in header of desk.html
 app_include_css = "/assets/erp/css/erp.css"
-app_include_js = "/assets/erp/js/erp.js"
+app_include_js = "/assets/erp/js/erp-new.js"
 
 # include js, css files in header of web template
 # web_include_css = "/assets/erp/css/erp.css"
@@ -32,6 +32,7 @@ app_include_js = "/assets/erp/js/erp.js"
 # include js in doctype views
 # doctype_js = {"doctype" : "public/js/doctype.js"}
 # doctype_list_js = {"doctype" : "public/js/doctype_list.js"}
+doctype_list_js = {"Sales Invoice" : "/assets/erp/js/sales_invoice_list_custom.js"}
 # doctype_tree_js = {"doctype" : "public/js/doctype_tree.js"}
 # doctype_calendar_js = {"doctype" : "public/js/doctype_calendar.js"}
 
@@ -44,16 +45,22 @@ app_include_js = "/assets/erp/js/erp.js"
 # ----------
 
 # application home page (will override Website Settings)
-home_page = "/app/welcome%3A"
+# home_page = "/app/home"
 
 # website user home page (by Role)
 # role_home_page = {
 # 	"Role": "home_page"
 # }
 website_context = {
-	"favicon": "/assets/erp/images/voyzu.jpg",
-	"splash_image": "/assets/erp/images/voyzu.jpg"
+	"favicon": "https://crm-assets.voyzu.com/favicon/favicon-32x32.png", # little website tab icon
+	"splash_image": "/assets/erp/images/voyzu.png" # image that appears briefly before desk pages load
 }
+
+# not quite sure how the /app path works in desk, but explicitly setting this to app/home fixes a kind of
+# endless loop that occurs when we redirect the CRM workspace to /crm and the user clicks "Back to desk"
+website_redirects = [
+   {"source": "/app", "target": "/app/home"} 
+]
 
 # Generators
 # ----------
@@ -88,6 +95,11 @@ fixtures = [
         "filters": [
             ["name", "in", ["welcome"]]
         ]
+    },
+        {
+        "dt": "Client Script",
+        # "filters": [
+        # ]
     }
 ]
 
